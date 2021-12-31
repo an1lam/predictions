@@ -1,2 +1,2 @@
 # predictions
-Repository for code related to my annual and other predictions.
+Repository for code related to my annual and other predictions. All code here should be considered experimental and assumed to be specifically written to work for me in my environment using the data in the repo. That said, as far as I know I'm not using anything custom outside of the standard Python toolit (e.g., pandas, numpy, scipy, matplotlib, seaborn), so it should be fairly easy to get my notebook working in a Unix-y environment.
