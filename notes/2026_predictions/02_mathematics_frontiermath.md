@@ -34,6 +34,8 @@ FrontierMath Tier 4 is the hardest tier of the FrontierMath benchmark, containin
 
 ## Forecasting Methodology
 
+![FrontierMath Tier 4 Scenarios](../../data/2026_predictions/frontiermath_tier4_plot.png)
+
 Given the stepwise nature of progress and uncertainty about RL-driven acceleration, we use a weighted multi-model approach:
 
 ### Model A: Linear Trend (40% weight)

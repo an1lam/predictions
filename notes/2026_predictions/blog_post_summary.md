@@ -23,6 +23,9 @@ We predict a median doubling time of **4.5 months** (10th: 3.0, 90th: 6.5). Regr
 **62%** (10th: 40%, 90th: 85%)
 
 ### Rationale
+
+![FrontierMath Tier 4 Scenarios](../../data/2026_predictions/frontiermath_tier4_plot.png)
+
 We predict a median score of **62%** (10th: 40%, 90th: 85%). We use a weighted multi-model approach: (A) linear trend extrapolation at 2.6%/month → 60%, weighted 40%; (B) accelerated progress model at 4.2%/month based on recent RL-driven gains → 79%, weighted 30%; (C) ceiling/diminishing returns model at 1.5%/month → 47%, weighted 30%. Progress on this benchmark has been stepwise, driven by flagship model releases from OpenAI and Google. RL advances (IMO wins, Erdős solutions) suggest math may progress faster than other domains, but Tier 4 contains the hardest problems so some slowdown is plausible.
 
 ---
