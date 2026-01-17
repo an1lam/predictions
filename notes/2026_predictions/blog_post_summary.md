@@ -10,6 +10,9 @@ My predictions for the [forecast2026.ai](https://forecast2026.ai) survey, coveri
 **4.5 months** (10th: 3.0 mo, 90th: 6.5 mo)
 
 ### Rationale
+
+![METR Horizon Progression](../../data/2026_predictions/metr_horizon_plot.png)
+
 We predict a median doubling time of **4.5 months** (10th: 3.0, 90th: 6.5). Regression on Epoch's 32-model dataset shows the long-term trend is ~5.75 months, but the 2024-2025 period accelerated to ~4.14 months. We anchor near the recent trend but shade slightly pessimistic (4.5 vs 4.1) because longer tasks (multi-day) may prove qualitatively harder. We widen bounds beyond the statistical CI to account for tail risks: the 10th percentile (3.0 mo) captures breakthrough scenarios, while the 90th (6.5 mo) covers disruptions like a Taiwan invasion affecting chip supply, regulatory slowdowns, or capability plateaus.
 
 ---

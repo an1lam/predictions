@@ -8,6 +8,8 @@ We predict a median doubling time of **4.5 months** (10th: 3.0, 90th: 6.5). Regr
 
 ## Base Rate / Trend Analysis
 
+![METR Horizon Progression](../../data/2026_predictions/metr_horizon_plot.png)
+
 METR's task horizon metric measures the length of tasks (by human completion time) that AI agents can complete with 50% reliability.
 
 **Current model horizons (50% success, in minutes):**
@@ -59,7 +61,7 @@ The recent period shows clear acceleration from the long-term ~6 month trend to 
 
 ## Data & Sources
 - Epoch AI benchmark data: `data/2026_predictions/metr_time_horizons_external.csv`
-- Trend plot: `data/2026_predictions/20260117_epoch_metr_time_horizon.png`
-- Analysis script: `scripts/2026_predictions/metr_doubling_time.py`
+- Analysis scripts: `scripts/2026_predictions/01_metr_horizon/`
+- Trend plot: `data/2026_predictions/metr_horizon_plot.png`
 - [METR: Measuring AI Ability to Complete Long Tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)
 - [Epoch AI METR Time Horizons](https://epoch.ai/benchmarks/metr-time-horizons)
