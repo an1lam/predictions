@@ -1,0 +1,111 @@
+Source,Category,Prediction,Probability,Target_Date,Resolution_Status,Outcome,Notes
+Bets Page,Geopolitics,"Russia will invade Ukraine before May 15th, 2022",N/A,2022-05-15,Resolved,Right,Won bet against Eryney
+Bets Page,Tech/Autonomous Vehicles,"1 major city will see at least 1000 fully autonomous rides/day of at least 3 miles each with no collisions due to car error in one week",N/A,N/A,Resolved,Right,Won bet against Will Baird
+Bets Page,Tech/Company,"Sam Altman will be back or announced to be back as CEO at OpenAI or Mira Murati will have left by EOD 11/20/2023",N/A,2023-11-20,Resolved,Right,Won bet against Matt Ritter
+Bets Page,Geopolitics,"China takes military action resulting in loss of life of at least one Taiwanese or Chinese service member before 20 Jan 2025",N/A,2025-01-20,Resolved,Right,Won bet - no such action occurred
+Bets Page,Crypto,"The Ethereum merge will complete (mainnet) by January 1st 2023",N/A,2023-01-01,Resolved,Right,Won bet against Eryney
+Bets Page,COVID,"At least 75% of USA COVID-19 cases between 1/1/22 and 2/28/23 occur between 1/1/22 and 2/28/22",N/A,2023-02-28,Resolved,Right,Won bet against AppliedDivinityStudies
+Bets Page,Crypto,"ETH price will be above $1k on 1/1/22",N/A,2022-01-01,Resolved,Wrong,Lost bet to Eryney Marrogi
+Bets Page,Consumer Tech,"By 2/3/2023 it will still be possible to play a free version of wordle roughly every day",N/A,2023-02-03,Resolved,Wrong,Lost bet to Matt Ritter
+Bets Page,Sports/Random,"Less than 500000 Americans golf at least once per year",N/A,N/A,Resolved,Wrong,Lost bet to Jen Dalecki
+Bets Page,Politics,"There will be street violence in a major city by end of 2020",N/A,2020-12-31,Resolved,Wrong,Lost bet - unclear resolution criteria
+Bets Page,Tech/AI,"OpenAI will hit their 100X payout threshold to their first round of investors by 2035",N/A,2035-01-01,Unresolved,Pending,Bet against Robin Hanson
+Bets Page,Politics,"There will be a draft in the US in the next 10 years",N/A,2033-07-13,Unresolved,Pending,Betting against Eryney
+Bets Page,EA/Wealth,"By July 2027 10 people who explicitly identify as EAs will be billionaires who are not now billionaires",N/A,2027-07-01,Unresolved,Pending,Betting against Dwarkesh Patel
+2021 Predictions,Science,"Another baby born from an embryo publicly declared to have been modified with CRISPR",3%,2021-12-31,Resolved,Right,Low probability event did not occur
+2021 Predictions,Science,"Proof that P = NP (confirmed by Scott Aaronson)",0.01%,2021-12-31,Resolved,Right,Low probability event did not occur
+2021 Predictions,Science,"Proof that P != NP (confirmed by Scott Aaronson)",0.50%,2021-12-31,Resolved,Right,Low probability event did not occur
+2021 Predictions,AI,"Language model released that uses 10x the parameters used by GPT-3",40%,2021-12-31,Resolved,Wrong,Did not happen in 2021
+2021 Predictions,AI,"Highest exact match rate on SQuAD 2.0 >92.0",60%,2022-01-14,Resolved,Right,Achieved
+2021 Predictions,Climate,"Average world temperature increases relative to 2020",99%,2021-12-31,Resolved,Ambiguous,Need to verify actual data
+2021 Predictions,Tech/Autonomous,"Waymo self-driving car service open to the public in a city outside of Arizona",20%,2021-12-31,Resolved,Wrong,Did not happen in 2021
+2021 Predictions,Tech/Autonomous,"Another companys self-driving car service open to the public",10%,2021-12-31,Resolved,Ambiguous,Depends on definition
+2021 Predictions,Tech/Space,"SpaceX starship successful test launch and landing without major issues",60%,2021-12-31,Resolved,Wrong,Not achieved in 2021
+2021 Predictions,Tech/Consumer,"First Tesla Cybertruck delivered to customer",45%,2021-12-31,Resolved,Wrong,Did not happen in 2021
+2021 Predictions,Tech/Hardware,"Top price performance of GPU >= 10 (G3D Mark/$)",55%,2021-12-31,Resolved,Ambiguous,Need specific benchmark data
+2021 Predictions,Tech/Business,"Major tech company HQ moves from Bay Area",40%,2021-12-31,Resolved,Wrong,Did not happen significantly
+2021 Predictions,Tech/Delivery,"Amazon or Wing drone delivery rollout to US customers",5%,2021-12-31,Resolved,Right,Low probability event did not occur
+2021 Predictions,Crypto,"Bitcoin price >$10k",80%,2021-12-31,Resolved,Right,BTC was above 10k
+2021 Predictions,Crypto,"Bitcoin price >$20k",70%,2021-12-31,Resolved,Right,BTC was above 20k
+2021 Predictions,Crypto,"Bitcoin price >$50k",20%,2021-12-31,Resolved,Right,BTC exceeded 50k in 2021
+2021 Predictions,Crypto,"Bitcoin price >$75k",5%,2021-12-31,Resolved,Right,BTC did not exceed 75k - correctly low probability
+2021 Predictions,Crypto,"Bitcoin price >$100k",2%,2021-12-31,Resolved,Right,BTC did not exceed 100k - correctly low probability
+2021 Predictions,Crypto,"ETH price >$200",95%,2021-12-31,Resolved,Right,ETH was above 200
+2021 Predictions,Crypto,"ETH price >$500",60%,2021-12-31,Resolved,Right,ETH was above 500
+2021 Predictions,Crypto,"ETH price >$1k",55%,2021-12-31,Resolved,Right,ETH exceeded 1k in 2021
+2021 Predictions,Crypto,"ETH price >$2k",25%,2021-12-31,Resolved,Right,ETH exceeded 2k in 2021
+2021 Predictions,Crypto,"ETH price >$5k",10%,2021-12-31,Resolved,Wrong,ETH did not stay above 5k EOY
+2021 Predictions,Politics,"Andrew Yang participates in NYC mayoral primary",60%,2021-12-31,Resolved,Right,Yang participated
+2021 Predictions,Politics,"Conditional on participation Yang wins primary",30%,2021-12-31,Resolved,Right,Yang did not win (correctly lower probability)
+2021 Predictions,Global,"Number of people in extreme global poverty falls",70%,2021-12-31,Resolved,Wrong,COVID increased poverty
+2021 Predictions,Geopolitics,"China attacks Taiwan",5%,2021-12-31,Resolved,Right,Did not happen
+2021 Predictions,COVID,"100M vaccine doses distributed Jan 9-Mar 31",10%,2021-03-31,Resolved,Right,Actually happened - underestimated
+2021 Predictions,COVID,"100M first doses administered in Bidens first 100 days",45%,2021-04-30,Resolved,Wrong,Happened faster than expected - underconfident
+2021 Predictions,COVID,"Fewer than 40M total US COVID cases by Mar 31",4%,2021-03-31,Resolved,Wrong,Actual was ~30M - overestimated spread
+2021 Predictions,Internet,"Scott Alexander starts a Substack",95%,2021-12-31,Resolved,Right,He did
+2021 Predictions,Personal,"Write >4 personal blog posts",65%,2021-12-31,Resolved,Ambiguous,Need to verify count
+2021 Predictions,Personal,"Perform/write up >=1 self-experiment",75%,2021-12-31,Resolved,Ambiguous,Need to verify
+2021 Predictions,Personal,"Publish >=1 paper on ArXiv",60%,2021-12-31,Resolved,Wrong,Did not publish by then
+AI Omens (2022),AI/Deployment,"Self-driving car deployment continues apace replacing meaningful (10%) fraction of ride share market",60%,2027,Resolved 2025,Wrong,Waymo at ~250K trips/week vs Uber 26M daily - nowhere near 10%
+AI Omens (2022),AI/Products,"At least one LLM-driven product has 1 million unique active users",60%,2027,Resolved 2025,Right,ChatGPT 400M weekly users; Copilot 1.3M subscribers
+AI Omens (2022),AI/Robotics,"Companies like Covariant start achieving real market penetration",60%,2027,Resolved 2025,Ambiguous,Investment up but not clear market penetration
+AI Omens (2022),AI/Healthcare,"Radiologists and pathologists become more productive as result of AI tooling",60%,2027,Resolved 2025,Ambiguous,~30% adoption but mostly cursory use
+AI Omens (2022),AI/Automation,"AI systems start seeing slow but real adoption in food industry tasks like making burgers",60%,2027,Resolved 2025,Wrong,Not much has changed
+AI Omens (2022),AI/Math,"AI wins medal in IMO by end of 2025",20%,2025-12-31,Resolved 2025,Right,AlphaProof achieved silver medal level
+AI Omens (2022),AI/Math,"AI proves important broad theorem humans unable to prove (e.g. Riemann Hypothesis)",10%,2027,Resolved 2025,Wrong,Not yet
+AI Omens (2022),AI/Coding,"AI programming model outperforms best competitive programmers",20%,2027,Resolved 2025,Right,o3 at 99+th percentile on CodeForces
+AI Omens (2022),AI/Jobs,"AI programmers start replacing junior programmers in industry",20%,2027,Resolved 2025,Ambiguous,Hard to isolate from ZIRP effects
+AI Omens (2022),AI/Coding,"AI system can automatically perform large scale refactorings reliably",20%,2027,Resolved 2025,Wrong,Close but not production-ready
+AI Omens (2022),AI/Research,"AI research assistants helpful enough actually trust their responses",20%,2027,Resolved 2025,Right,Elicit 2M+ users; Deep Research tools trusted
+AI Omens (2022),AI/Forecasting,"AI systems beat humans at forecasting medium to long term events",20%,2027,Resolved 2025,Ambiguous,Close but not definitively achieved
+AI Omens (2022),AI/Science,"AI engineering systems design new materials unblocking bottlenecks",10%,2027,Resolved 2025,Ambiguous,No clear examples cited
+AI Omens (2022),AI/Biology,"Models predict full viral complexes variant effects dynamics",10%,2027,Resolved 2025,Ambiguous,AlphaFold3 impressive but cannot predict full viral structures
+AI Omens (2022),AI/Science,"Models learn from papers and drive automated robotic labs",10%,2027,Resolved 2025,Ambiguous,Initial working examples emerging
+AI Omens (2022),AI/RL,"RL agents beat humans at hard exploration games like Montezumas Revenge",60%,2027,Resolved 2025,Right,MuZero Agent57 achieved superhuman scores
+AI Omens (2022),AI/LLM,"LLM context lengths allowing discussion of entire books",60%,2027,Resolved 2025,Right,200K+ tokens now; 100M experimental
+AI Omens (2022),AI/Dialogue,"Dialogue systems maintaining coherence >5 minutes",60%,2027,Resolved 2025,Right,Obviously happened with current LLMs
+AI Omens (2022),AI/Robotics,"Robotics systems learning in real-time from mistakes",20%,2027,Resolved 2025,Ambiguous,Insufficient expertise to evaluate
+GPT-4 Predictions (2022),AI/Writing,"GPT-4 write a blog post about gene therapy matching authors quality level",N/A,2023-03-14,Resolved,Right,GPT-4 could not match quality
+GPT-4 Predictions (2022),AI/Writing,"GPT-4 write a complete ML scientific paper with minimal editing",N/A,2023-03-14,Resolved,Right,Could not do this
+GPT-4 Predictions (2022),AI/Coding,"GPT-4 solve three problems from a recent programming competition on Leetcode",N/A,2023-03-14,Resolved,Ambiguous,Depends on problem difficulty
+GPT-4 Predictions (2022),AI/Reasoning,"GPT-4 describe connections between different ML framings",N/A,2023-03-14,Resolved,Ambiguous,Partially capable
+GPT-4 Predictions (2022),AI/Math,"GPT-4 solve 10 randomly chosen problems from Linear Algebra Done Right without CoT",N/A,2023-03-14,Resolved,Right,Could not do this reliably
+GPT-4 Predictions (2022),AI/Design,"GPT-4 describe coherent ML model training platform design",N/A,2023-03-14,Resolved,Ambiguous,Partially capable
+GPT-4 Predictions (2022),AI/Science,"GPT-4 find solutions to unsolved scientific problems",N/A,2023-03-14,Resolved,Right,Could not do this
+GPT-4 Predictions (2022),AI/Games,"GPT-4 play better than 2021 NeurIPS Nethack challenge winner",N/A,2023-03-14,Resolved,Right,Could not do this
+GPT-4 Predictions (2022),AI/Math,"GPT-4 solve >18/20 multiplication problems with 3-6 digit multiplicands",N/A,2023-03-14,Resolved,Wrong,GPT-4 could do this
+GPT-4 Predictions (2022),AI/Writing,"GPT-4 write internet marketing-style posts on popular topics",N/A,2023-03-14,Resolved,Right,Could do this well
+GPT-5 Predictions (2024),AI/Benchmark,"GPT-5 ARC-AGI 2 >50%",10%,2025-08-07,Resolved,Right,Actual 9.9% - low probability event did not occur
+GPT-5 Predictions (2024),AI/Benchmark,"GPT-5 SWE-Bench Verified 70-80%",70%,2025-08-07,Resolved,Right,Actual 74.9% - direct hit
+GPT-5 Predictions (2024),AI/Benchmark,"GPT-5 FrontierMath 20-30%",45%,2025-08-07,Resolved,Ambiguous,Actual 32.1% OpenAI / 24.8% Epoch
+GPT-5 Predictions (2024),AI/Benchmark,"GPT-5 Creative Writing top leaderboard",75%,2025-08-07,Resolved,Right,Achieved top of leaderboard
+GPT-5 Predictions (2024),AI/Benchmark,"GPT-5 NYT Connections top leaderboard",68%,2025-08-07,Unresolved,Pending,Currently 7th place
+GPT-5 Predictions (2024),AI/Benchmark,"GPT-5 CodeForces ELO top 10",40%,2025-08-07,Unresolved,Pending,Unlikely to resolve
+Gemini 3 Predictions (2025),AI/Benchmark,"Gemini 3 METR Time Horizon >2 hrs",65%,2025-12-31,Unresolved,Pending,Awaiting Gemini 3 release
+Gemini 3 Predictions (2025),AI/Benchmark,"Gemini 3 METR Time Horizon >3 hrs",35%,2025-12-31,Unresolved,Pending,Awaiting Gemini 3 release
+Gemini 3 Predictions (2025),AI/Benchmark,"Gemini 3 GPQA Diamond >80%",95%,2025-12-31,Unresolved,Pending,Awaiting Gemini 3 release
+Gemini 3 Predictions (2025),AI/Benchmark,"Gemini 3 GPQA Diamond >90%",40%,2025-12-31,Unresolved,Pending,Awaiting Gemini 3 release
+Gemini 3 Predictions (2025),AI/Benchmark,"Gemini 3 FrontierMath >30%",90%,2025-12-31,Unresolved,Pending,Awaiting Gemini 3 release
+Gemini 3 Predictions (2025),AI/Benchmark,"Gemini 3 FrontierMath >50%",40%,2025-12-31,Unresolved,Pending,Awaiting Gemini 3 release
+Gemini 3 Predictions (2025),AI/Benchmark,"Gemini 3 SWE-Bench Verified >80%",40%,2025-12-31,Unresolved,Pending,Awaiting Gemini 3 release
+Gemini 3 Predictions (2025),AI/Benchmark,"Gemini 3 OSWorld >60%",60%,2025-12-31,Unresolved,Pending,Awaiting Gemini 3 release
+Gemini 3 Predictions (2025),AI/Qualitative,"Gemini 3 unlocks meaningful new agentic use-case",40%,2025-12-31,Unresolved,Pending,Awaiting Gemini 3 release
+Gemini 3 Predictions (2025),AI/Qualitative,"Author impressed by intelligence after 3 hours use",35%,2025-12-31,Unresolved,Pending,Awaiting Gemini 3 release
+2050 Predictions,AI,"Language model-based chat bots are widely used for applications like tech support",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,AI/Robotics,"Robots increase manufacturing productivity but cannot handle messier tasks; >95% of hedge clipping still done by humans",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,AI/Military,"AI systems are making US military decisions with limited to no human-in-the-loop",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Biotech,"AI becomes ubiquitous in drug development; at least one top-10 pharma company built on AI thesis",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Biotech,"Erooms Law breaks but doesnt reverse",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Biotech,"Producing biologics becomes >10X cheaper; biologics gain >20% market share in non-cancer disease areas",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Biotech,"Gene therapy provides approved cures for 10s or even 100s of currently untreatable genetic diseases",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Healthcare,"AI in radiology/pathology routinely used but dont replace radiologists entirely; numbers dont decrease by >50%",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Healthcare,"EHRs still a balkanized painful-to-interact-with mess",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Healthcare,">1M people still die annually in US from cancer; deaths at least halve from current rates",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Healthcare,">300K people still die annually in US from heart disease",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Healthcare,"Maximum human lifespan still under 125 years",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Healthcare,"IVF usage grows from >1% to 3-5%",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Healthcare,"Polygenic scores for embryo selection used by >=5% of IVF patients",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Synbio,"~5 major biomanufacturing successes; >5% of global palm oil via fermentation",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Crypto,"People routinely use decentralized smart contract applications or cryptocurrencies in daily lives",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Crypto,"Market cap of top blockchain tokens larger than top precious metal market cap",N/A,2050-01-01,Unresolved,Pending,Long-term prediction
+2050 Predictions,Crypto,"At least one country adopts central bank digital currency",N/A,2050-01-01,Unresolved,Pending,Already happened (China etc) - could mark Right
