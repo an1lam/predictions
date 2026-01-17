@@ -44,18 +44,4 @@ jupyter notebook notebooks/<notebook_name>.ipynb
 
 ## 2026 Predictions Project
 
-The `notes/2026_predictions/`, `scripts/2026_predictions/`, and `data/2026_predictions/` directories contain work for the forecast2026.ai survey.
-
-**Prediction note format** (see existing files for examples):
-- Summary paragraph at top with prediction and rationale
-- Current value section
-- Base rate / trend analysis with data
-- Multi-scenario weighting when appropriate (e.g., linear/accelerated/ceiling models)
-- Adjustment factors (upward/downward pressures)
-- Final prediction with 10th/90th percentiles
-- Data sources section
-
-**Analysis scripts** typically:
-- Load CSV data from `data/2026_predictions/`
-- Use scipy.stats for regression, curve fitting
-- Save plots to `data/2026_predictions/` (PNG, 150 dpi)
+The `notes/2026_predictions/`, `scripts/2026_predictions/`, and `data/2026_predictions/` directories contain work for the forecast2026.ai survey. See `notes/2026_predictions/00_plan.md` for methodology and structure details.
