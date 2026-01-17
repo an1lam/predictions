@@ -10,7 +10,10 @@ This is a personal repository for prediction tracking and scoring. It contains J
 
 - `notebooks/` - Jupyter notebooks for prediction analysis and scoring
 - `data/` - CSV files containing predictions, resolutions, and external data sources
-- `figures/` - Generated plots (gitignored)
+  - Subdirectories (e.g., `data/2026_predictions/`) contain related data and generated plots
+- `scripts/` - Python analysis scripts organized by project (e.g., `scripts/2026_predictions/`)
+- `notes/` - Markdown writeups for predictions and analysis
+- `figures/` - Generated plots (gitignored, but plots are often saved alongside data instead)
 
 ## Running Code
 
@@ -38,3 +41,21 @@ jupyter notebook notebooks/<notebook_name>.ipynb
 - `Category`: Topic category (Science, Tech, Politics, COVID, etc.)
 - `Resolution`: Boolean outcome (True/False) or NaN if unresolved
 - `Source`: Optional URL for resolution evidence
+
+## 2026 Predictions Project
+
+The `notes/2026_predictions/`, `scripts/2026_predictions/`, and `data/2026_predictions/` directories contain work for the forecast2026.ai survey.
+
+**Prediction note format** (see existing files for examples):
+- Summary paragraph at top with prediction and rationale
+- Current value section
+- Base rate / trend analysis with data
+- Multi-scenario weighting when appropriate (e.g., linear/accelerated/ceiling models)
+- Adjustment factors (upward/downward pressures)
+- Final prediction with 10th/90th percentiles
+- Data sources section
+
+**Analysis scripts** typically:
+- Load CSV data from `data/2026_predictions/`
+- Use scipy.stats for regression, curve fitting
+- Save plots to `data/2026_predictions/` (PNG, 150 dpi)
