@@ -12,9 +12,14 @@ This is a personal repository for prediction tracking and scoring. It contains J
 - `data/` - CSV files containing predictions, resolutions, and external data sources
 - `figures/` - Generated plots (gitignored)
 
-## Running Notebooks
+## Running Code
 
-Notebooks use standard Python data science libraries (pandas, numpy, scipy, matplotlib, seaborn, sklearn). No special environment setup is documented; any standard scientific Python environment should work.
+Use `uv` to run Python scripts:
+```bash
+uv run python scripts/<script_name>.py
+```
+
+Notebooks use standard Python data science libraries (pandas, numpy, scipy, matplotlib, seaborn, sklearn).
 
 To run a notebook:
 ```bash

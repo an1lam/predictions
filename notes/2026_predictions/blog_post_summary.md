@@ -50,6 +50,9 @@ We predict a median score of **37%** (10th: 18%, 90th: 55%). OPQA evaluates mode
 **74%** (10th: 45%, 90th: 95%)
 
 ### Rationale
+
+![GSOBench Sigmoid Fit](../../data/2026_predictions/gso_sigmoid_plot.png)
+
 We predict GSOBench SOTA will reach **74%** (10th: 45%, 90th: 95%) by December 31, 2026. This prediction is based on fitting a sigmoid curve to the SOTA progression, which shows the benchmark is currently before its inflection point (projected for mid-2026). Using a 90-100% ceiling assumption—appropriate since the benchmark measures performance against human experts rather than a theoretical optimum—the sigmoid projects 71-76% by end of 2026. We centered on 74% and widened bounds to account for out-of-model factors including geopolitical risk, potential for AI to exceed human performance, and benchmark methodology changes.
 
 ---
