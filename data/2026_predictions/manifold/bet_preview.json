@@ -1,0 +1,738 @@
+{
+  "timestamp": "2026-01-17T14:11:51.515923",
+  "config": {
+    "bankroll": 17619,
+    "kelly_fraction": 0.25,
+    "edge_threshold": 0.1
+  },
+  "allocations": {
+    "01_metr_horizon": 826.5940980355529,
+    "02_frontiermath_tier4": 685.1332448388262,
+    "03_remote_labor_index": 4739.365120219467,
+    "04_openai_proof_qa": 1994.8065016077433,
+    "05_gsobench": 847.2841565033508,
+    "06_epoch_capabilities": 2777.5885110284744,
+    "07_ai_lab_revenues": 1103.3988460662829,
+    "08_public_importance": 2103.7470109676947,
+    "09_metr_uplift": 970.9557337651304,
+    "10_yougov_sentiment": 1570.126776967477
+  },
+  "markets": {
+    "01_metr_horizon": {
+      "market_id": "QOCNqgPOth",
+      "market_edge": 0.028670587250197353,
+      "distribution": {
+        "type": "normal",
+        "median": 4.5,
+        "p10": 3.0,
+        "p90": 6.5
+      },
+      "buckets": [
+        {
+          "answer_id": "Q2IAS0zUQO",
+          "text": "<3 months",
+          "market_prob": 0.058400867092827415,
+          "our_prob": 0.136289474026366
+        },
+        {
+          "answer_id": "9q8Z5pOAht",
+          "text": "3-3.5 months",
+          "market_prob": 0.07362176376380461,
+          "our_prob": 0.09596923541928004
+        },
+        {
+          "answer_id": "N0E8Q0dSz8",
+          "text": "3.5-4 months",
+          "market_prob": 0.12507481757547226,
+          "our_prob": 0.12503043308806144
+        },
+        {
+          "answer_id": "g5lzEhUlZc",
+          "text": "4-4.5 months",
+          "market_prob": 0.19427977479676284,
+          "our_prob": 0.14271085746629253
+        },
+        {
+          "answer_id": "PdQ5Pl2Egp",
+          "text": "4.5-5 months",
+          "market_prob": 0.1734979537264984,
+          "our_prob": 0.14271085746629253
+        },
+        {
+          "answer_id": "zZuhAts9LL",
+          "text": "5-5.5 months",
+          "market_prob": 0.11889821275103497,
+          "our_prob": 0.1250304330880614
+        },
+        {
+          "answer_id": "SndN80UshR",
+          "text": "5.5-6 months",
+          "market_prob": 0.07838192156601792,
+          "our_prob": 0.09596923541928004
+        },
+        {
+          "answer_id": "8INPq08nc6",
+          "text": "6-6.5 months",
+          "market_prob": 0.061556353966621624,
+          "our_prob": 0.06453623745869375
+        },
+        {
+          "answer_id": "gRzCly8sAh",
+          "text": "6.5-7 months",
+          "market_prob": 0.038663250053169305,
+          "our_prob": 0.03802131850186652
+        },
+        {
+          "answer_id": "5q5RAdsOcl",
+          "text": ">7 months",
+          "market_prob": 0.07762508470779089,
+          "our_prob": 0.03373191806580578
+        }
+      ]
+    },
+    "02_frontiermath_tier4": {
+      "market_id": "qd9CuLsOZN",
+      "market_edge": 0.0237639882995118,
+      "distribution": {
+        "type": "normal",
+        "median": 62,
+        "p10": 40,
+        "p90": 85
+      },
+      "buckets": [
+        {
+          "answer_id": "cI6h5zRIA8",
+          "text": "<30%",
+          "market_prob": 0.025898389447684196,
+          "our_prob": 0.03434567467532611
+        },
+        {
+          "answer_id": "tZpCgUtCpR",
+          "text": "30-40%",
+          "market_prob": 0.06497076576595327,
+          "our_prob": 0.07102025435605687
+        },
+        {
+          "answer_id": "RAS8zPQlnS",
+          "text": "40-50%",
+          "market_prob": 0.1209360895236197,
+          "our_prob": 0.14204281965635462
+        },
+        {
+          "answer_id": "AQLnO900dy",
+          "text": "50-60%",
+          "market_prob": 0.15510104220671508,
+          "our_prob": 0.20729822878455906
+        },
+        {
+          "answer_id": "Zsg95UpNUn",
+          "text": "60-70%",
+          "market_prob": 0.2236933360443896,
+          "our_prob": 0.22077837012075358
+        },
+        {
+          "answer_id": "O9lZy9LStU",
+          "text": "70-80%",
+          "market_prob": 0.1904968167436016,
+          "our_prob": 0.17159701495280344
+        },
+        {
+          "answer_id": "Us6hLhulLR",
+          "text": "80-90%",
+          "market_prob": 0.1373596434404885,
+          "our_prob": 0.09732507778553268
+        },
+        {
+          "answer_id": "NzgIcZQzz6",
+          "text": "\u226590%",
+          "market_prob": 0.08154391682754816,
+          "our_prob": 0.05559255966861365
+        }
+      ]
+    },
+    "03_remote_labor_index": {
+      "market_id": "z6QCs2ULNS",
+      "market_edge": 0.16438585941119305,
+      "distribution": {
+        "type": "lognormal",
+        "median": 18,
+        "p10": 8,
+        "p90": 35
+      },
+      "buckets": [
+        {
+          "answer_id": "LNuZ5hNup6",
+          "text": "<10%",
+          "market_prob": 0.11841011128025132,
+          "our_prob": 0.15397524487098385
+        },
+        {
+          "answer_id": "s8hgR255Sd",
+          "text": "10-20%",
+          "market_prob": 0.11869818152878792,
+          "our_prob": 0.4185279309067231
+        },
+        {
+          "answer_id": "Ssp26N0O2q",
+          "text": "20-30%",
+          "market_prob": 0.1423124338274306,
+          "our_prob": 0.23969909038905957
+        },
+        {
+          "answer_id": "5CduzLSCN6",
+          "text": "30-40%",
+          "market_prob": 0.1388267144360928,
+          "our_prob": 0.10477659375465775
+        },
+        {
+          "answer_id": "szN9IqOlhR",
+          "text": "40-50%",
+          "market_prob": 0.11682803888652195,
+          "our_prob": 0.04483065653228291
+        },
+        {
+          "answer_id": "ROZyI2IpUO",
+          "text": "50-60%",
+          "market_prob": 0.11081512808271562,
+          "our_prob": 0.019806155397200875
+        },
+        {
+          "answer_id": "5OqcL0L02h",
+          "text": "60-70%",
+          "market_prob": 0.09611378331845273,
+          "our_prob": 0.009140460037469489
+        },
+        {
+          "answer_id": "L2I6gOE20y",
+          "text": "70-80%",
+          "market_prob": 0.08178869885881627,
+          "our_prob": 0.004407525435664916
+        },
+        {
+          "answer_id": "6dn5CznN2S",
+          "text": "\u226580%",
+          "market_prob": 0.07620690978093075,
+          "our_prob": 0.004836342675957561
+        }
+      ]
+    },
+    "04_openai_proof_qa": {
+      "market_id": "6QyqELA5IE",
+      "market_edge": 0.06919027608293646,
+      "distribution": {
+        "type": "normal",
+        "median": 37,
+        "p10": 18,
+        "p90": 55
+      },
+      "buckets": [
+        {
+          "answer_id": "QLu8zUcAq9",
+          "text": "<10%",
+          "market_prob": 0.07600796035382326,
+          "our_prob": 0.030873501810052814
+        },
+        {
+          "answer_id": "EsghRlUygR",
+          "text": "10-20%",
+          "market_prob": 0.12684484191516113,
+          "our_prob": 0.08888074119784979
+        },
+        {
+          "answer_id": "N8dtC5nn9n",
+          "text": "20-30%",
+          "market_prob": 0.13225769345665955,
+          "our_prob": 0.19432361483924332
+        },
+        {
+          "answer_id": "L6A6NUUUyh",
+          "text": "30-40%",
+          "market_prob": 0.1551109158616614,
+          "our_prob": 0.26813882709067594
+        },
+        {
+          "answer_id": "LO2PNthZ0R",
+          "text": "40-50%",
+          "market_prob": 0.14946508699604757,
+          "our_prob": 0.2335793248662983
+        },
+        {
+          "answer_id": "E2NNQgAZAQ",
+          "text": "50-60%",
+          "market_prob": 0.12913971535608715,
+          "our_prob": 0.12843872710631787
+        },
+        {
+          "answer_id": "pyqP8unZ5d",
+          "text": "60-70%",
+          "market_prob": 0.08294695996577801,
+          "our_prob": 0.044557240995066416
+        },
+        {
+          "answer_id": "CsCIhcUPPS",
+          "text": "70-80%",
+          "market_prob": 0.06532799567731773,
+          "our_prob": 0.009743724566988465
+        },
+        {
+          "answer_id": "6qtPsp5OC0",
+          "text": "80-90%",
+          "market_prob": 0.04645068177616916,
+          "our_prob": 0.001341604093752724
+        },
+        {
+          "answer_id": "nNtRgLutZt",
+          "text": "\u226590%",
+          "market_prob": 0.03644814864129509,
+          "our_prob": 0.0001226934337543728
+        }
+      ]
+    },
+    "05_gsobench": {
+      "market_id": "qt6RN658u5",
+      "market_edge": 0.029388226207362,
+      "distribution": {
+        "type": "truncated_normal",
+        "median": 74,
+        "p10": 45,
+        "p90": 95
+      },
+      "buckets": [
+        {
+          "answer_id": "qC0NAUdO9O",
+          "text": "<30%",
+          "market_prob": 0.03209672834342312,
+          "our_prob": 0.0132768470847591
+        },
+        {
+          "answer_id": "nqOdSUngZs",
+          "text": "30-40%",
+          "market_prob": 0.08751940309552153,
+          "our_prob": 0.031621113132623266
+        },
+        {
+          "answer_id": "N9P0gPs5NU",
+          "text": "40-50%",
+          "market_prob": 0.11161823830135215,
+          "our_prob": 0.07564608204422296
+        },
+        {
+          "answer_id": "ylCNcCCl5h",
+          "text": "50-60%",
+          "market_prob": 0.1542215876006601,
+          "our_prob": 0.14000503792399122
+        },
+        {
+          "answer_id": "69A0Nd0L5Z",
+          "text": "60-70%",
+          "market_prob": 0.18872508676393945,
+          "our_prob": 0.20048757666253647
+        },
+        {
+          "answer_id": "tLAy6hn2zA",
+          "text": "70-80%",
+          "market_prob": 0.1979997904813929,
+          "our_prob": 0.2221472022263713
+        },
+        {
+          "answer_id": "0q2A6lUShy",
+          "text": "80-90%",
+          "market_prob": 0.13287908464095935,
+          "our_prob": 0.19046292210818627
+        },
+        {
+          "answer_id": "9llOAnzzgR",
+          "text": "\u226590%",
+          "market_prob": 0.09494008077275191,
+          "our_prob": 0.12635321881730943
+        }
+      ]
+    },
+    "06_epoch_capabilities": {
+      "market_id": "gtLydILZ8O",
+      "market_edge": 0.09634123197811947,
+      "distribution": {
+        "type": "normal",
+        "median": 177,
+        "p10": 160,
+        "p90": 195
+      },
+      "buckets": [
+        {
+          "answer_id": "SLgOcIp89C",
+          "text": "<155",
+          "market_prob": 0.028570747057227563,
+          "our_prob": 0.053792553951516615
+        },
+        {
+          "answer_id": "h9RAPcCdyU",
+          "text": "155-160",
+          "market_prob": 0.07382700381882869,
+          "our_prob": 0.053062419628811856
+        },
+        {
+          "answer_id": "Ry2dR2gg05",
+          "text": "160-165",
+          "market_prob": 0.12329452447448565,
+          "our_prob": 0.08319442137944993
+        },
+        {
+          "answer_id": "ZzylSpz5PC",
+          "text": "165-170",
+          "market_prob": 0.20411157114516032,
+          "our_prob": 0.11427610982352587
+        },
+        {
+          "answer_id": "U9S9SLO095",
+          "text": "170-175",
+          "market_prob": 0.213852773462508,
+          "our_prob": 0.13752241666060167
+        },
+        {
+          "answer_id": "zCgqRdEE5s",
+          "text": "175-180",
+          "market_prob": 0.19000959806525097,
+          "our_prob": 0.14499397079546683
+        },
+        {
+          "answer_id": "69p2dPPnOL",
+          "text": "180-185",
+          "market_prob": 0.0949536592987255,
+          "our_prob": 0.13393227584819534
+        },
+        {
+          "answer_id": "OAULEON5th",
+          "text": "\u2265185",
+          "market_prob": 0.07138012267781345,
+          "our_prob": 0.2792258319124319
+        }
+      ]
+    },
+    "07_ai_lab_revenues": {
+      "market_id": "QISRd0Zcz9",
+      "market_edge": 0.03827161718562111,
+      "distribution": {
+        "type": "lognormal",
+        "median": 60,
+        "p10": 35,
+        "p90": 90
+      },
+      "buckets": [
+        {
+          "answer_id": "qzNzsu0OtZ",
+          "text": "<$40B",
+          "market_prob": 0.09424020710546775,
+          "our_prob": 0.13587771317763475
+        },
+        {
+          "answer_id": "lQzhR5hpqS",
+          "text": "$40-50B",
+          "market_prob": 0.11334030804663675,
+          "our_prob": 0.1747083985934907
+        },
+        {
+          "answer_id": "PSSOROnlEz",
+          "text": "$50-60B",
+          "market_prob": 0.14072643170735846,
+          "our_prob": 0.18941388822887478
+        },
+        {
+          "answer_id": "yguqEPzAyd",
+          "text": "$60-70B",
+          "market_prob": 0.16876103349355223,
+          "our_prob": 0.16196481362551907
+        },
+        {
+          "answer_id": "PIcN6g0glS",
+          "text": "$70-80B",
+          "market_prob": 0.1494007587984611,
+          "our_prob": 0.12027307381508245
+        },
+        {
+          "answer_id": "s8N5syZ2Ss",
+          "text": "$80-90B",
+          "market_prob": 0.1292017579873581,
+          "our_prob": 0.08188439938176373
+        },
+        {
+          "answer_id": "SOQRqd80hQ",
+          "text": "$90-100B",
+          "market_prob": 0.10216042370447433,
+          "our_prob": 0.052792259659357965
+        },
+        {
+          "answer_id": "ERQy28OgpP",
+          "text": "\u2265$100B",
+          "market_prob": 0.10216907915669132,
+          "our_prob": 0.08308545351827656
+        }
+      ]
+    },
+    "08_public_importance": {
+      "market_id": "PsnlN5NCpg",
+      "market_edge": 0.07296890018164262,
+      "distribution": {
+        "type": "lognormal",
+        "median": 1.0,
+        "p10": 0.3,
+        "p90": 8.0
+      },
+      "buckets": [
+        {
+          "answer_id": "g22lN5tAgg",
+          "text": "<0.5%",
+          "market_prob": 0.12216464790227409,
+          "our_prob": 0.2944501391417333
+        },
+        {
+          "answer_id": "zN52zu92Q2",
+          "text": "0.5-1%",
+          "market_prob": 0.1760122817378722,
+          "our_prob": 0.2055498608582667
+        },
+        {
+          "answer_id": "gPI5SIIUE6",
+          "text": "1-1.5%",
+          "market_prob": 0.18023401350494017,
+          "our_prob": 0.12404864789539016
+        },
+        {
+          "answer_id": "008luAd9E2",
+          "text": "1.5-2%",
+          "market_prob": 0.13233296555021065,
+          "our_prob": 0.08150121296287649
+        },
+        {
+          "answer_id": "A22pnEUOyZ",
+          "text": "2-3%",
+          "market_prob": 0.09389922502689306,
+          "our_prob": 0.09860659990682064
+        },
+        {
+          "answer_id": "gRSSq0shZR",
+          "text": "3-4%",
+          "market_prob": 0.08001475692546807,
+          "our_prob": 0.05596400038994598
+        },
+        {
+          "answer_id": "SUAQ0LU55R",
+          "text": "4-5%",
+          "market_prob": 0.07420294103033559,
+          "our_prob": 0.03511119182660416
+        },
+        {
+          "answer_id": "U2tu2s206y",
+          "text": "5-10%",
+          "market_prob": 0.08563571123784984,
+          "our_prob": 0.0684630630323323
+        },
+        {
+          "answer_id": "dg9gZppqzQ",
+          "text": "\u226510%",
+          "market_prob": 0.05550345708415637,
+          "our_prob": 0.03630528398603028
+        }
+      ]
+    },
+    "09_metr_uplift": {
+      "market_id": "tZq8ZgClZQ",
+      "market_edge": 0.03367780044298746,
+      "distribution": {
+        "type": "lognormal",
+        "median": 1.4,
+        "p10": 0.9,
+        "p90": 2.2
+      },
+      "buckets": [
+        {
+          "answer_id": "ILOOduyEPn",
+          "text": "<0.8x",
+          "market_prob": 0.050819011394369326,
+          "our_prob": 0.054488775219026286
+        },
+        {
+          "answer_id": "c9hzqqnU9y",
+          "text": "0.8-1x",
+          "market_prob": 0.07280008430401767,
+          "our_prob": 0.113110344949863
+        },
+        {
+          "answer_id": "dhQ9R6nySN",
+          "text": "1-1.2x",
+          "market_prob": 0.12136969060746192,
+          "our_prob": 0.16182432619355935
+        },
+        {
+          "answer_id": "dARyclPUd9",
+          "text": "1.2-1.4x",
+          "market_prob": 0.12351838228279993,
+          "our_prob": 0.17057655363755136
+        },
+        {
+          "answer_id": "Cn69RlLlnQ",
+          "text": "1.4-1.6x",
+          "market_prob": 0.12407974058101928,
+          "our_prob": 0.14893607854930768
+        },
+        {
+          "answer_id": "PcPy850QZl",
+          "text": "1.6-1.8x",
+          "market_prob": 0.10812688039038756,
+          "our_prob": 0.11523806779812995
+        },
+        {
+          "answer_id": "9205ZpR6zp",
+          "text": "1.8-2x",
+          "market_prob": 0.13993970520917096,
+          "our_prob": 0.08233106067521023
+        },
+        {
+          "answer_id": "tg9UlZscSh",
+          "text": "2-2.5x",
+          "market_prob": 0.13873362346995402,
+          "our_prob": 0.10510478897829267
+        },
+        {
+          "answer_id": "pIq5nRR6P6",
+          "text": "2.5-3x",
+          "market_prob": 0.0595521349225482,
+          "our_prob": 0.03386691210675752
+        },
+        {
+          "answer_id": "hygy0z8LZL",
+          "text": "\u22653x",
+          "market_prob": 0.06106074683827128,
+          "our_prob": 0.014523091892301943
+        }
+      ]
+    },
+    "10_yougov_sentiment": {
+      "market_id": "zZUCcuqOun",
+      "market_edge": 0.054460171999656595,
+      "distribution": {
+        "type": "normal",
+        "median": -14,
+        "p10": -40,
+        "p90": 15
+      },
+      "buckets": [
+        {
+          "answer_id": "UzsZE6EgEh",
+          "text": "<-30pp (strongly negative)",
+          "market_prob": 0.17000000000000004,
+          "our_prob": 0.2282183042360595
+        },
+        {
+          "answer_id": "LldNENnhpR",
+          "text": "-30 to -20pp",
+          "market_prob": 0.28000000000000014,
+          "our_prob": 0.16179946298565479
+        },
+        {
+          "answer_id": "d5PnC0EEld",
+          "text": "-20 to -10pp",
+          "market_prob": 0.22705226919966384,
+          "our_prob": 0.18383114194818245
+        },
+        {
+          "answer_id": "uqlZscI088",
+          "text": "-10 to 0pp",
+          "market_prob": 0.1299678039277121,
+          "our_prob": 0.16883319904707372
+        },
+        {
+          "answer_id": "c8NNhp9llR",
+          "text": "0 to +10pp",
+          "market_prob": 0.08726432573782561,
+          "our_prob": 0.12534016322957242
+        },
+        {
+          "answer_id": "Rs0lu29sZN",
+          "text": "+10 to +20pp",
+          "market_prob": 0.04399073302916325,
+          "our_prob": 0.07521517643798692
+        },
+        {
+          "answer_id": "AhNALtSl5h",
+          "text": "+20 to +30pp",
+          "market_prob": 0.03084277295839619,
+          "our_prob": 0.03648255241690923
+        },
+        {
+          "answer_id": "tgRUZlIyRg",
+          "text": "\u2265+30pp (strongly positive)",
+          "market_prob": 0.030882095147238817,
+          "our_prob": 0.02027999969856098
+        }
+      ]
+    }
+  },
+  "bets": [
+    {
+      "market_key": "03_remote_labor_index",
+      "market_id": "z6QCs2ULNS",
+      "market_name": "Remote Labor Index",
+      "answer_id": "s8hgR255Sd",
+      "answer_text": "10-20%",
+      "our_prob": 0.4185279309067231,
+      "market_prob": 0.11869818152878792,
+      "edge": 0.29982974937793516,
+      "kelly_frac": 0.08505308371485255,
+      "bet_amount": 403.0976183252786,
+      "outcome": "YES"
+    },
+    {
+      "market_key": "06_epoch_capabilities",
+      "market_id": "gtLydILZ8O",
+      "market_name": "Epoch Capabilities Index",
+      "answer_id": "OAULEON5th",
+      "answer_text": "\u2265185",
+      "our_prob": 0.2792258319124319,
+      "market_prob": 0.07138012267781345,
+      "edge": 0.20784570923461843,
+      "kelly_frac": 0.055955540665889154,
+      "bet_amount": 155.4214668819603,
+      "outcome": "YES"
+    },
+    {
+      "market_key": "08_public_importance",
+      "market_id": "PsnlN5NCpg",
+      "market_name": "Public Importance (Most Important Problem)",
+      "answer_id": "g22lN5tAgg",
+      "answer_text": "<0.5%",
+      "our_prob": 0.2944501391417333,
+      "market_prob": 0.12216464790227409,
+      "edge": 0.1722854912394592,
+      "kelly_frac": 0.0490654343174252,
+      "bet_amount": 103.22126078711501,
+      "outcome": "YES"
+    },
+    {
+      "market_key": "10_yougov_sentiment",
+      "market_id": "zZUCcuqOun",
+      "market_name": "YouGov Sentiment (Net Change)",
+      "answer_id": "LldNENnhpR",
+      "answer_text": "-30 to -20pp",
+      "our_prob": 0.16179946298565479,
+      "market_prob": 0.28000000000000014,
+      "edge": -0.11820053701434535,
+      "kelly_frac": 0.1055361937628083,
+      "bet_amount": 165.70520376621337,
+      "outcome": "NO"
+    },
+    {
+      "market_key": "04_openai_proof_qa",
+      "market_id": "6QyqELA5IE",
+      "market_name": "OpenAI-Proof Q&A",
+      "answer_id": "L6A6NUUUyh",
+      "answer_text": "30-40%",
+      "our_prob": 0.26813882709067594,
+      "market_prob": 0.1551109158616614,
+      "edge": 0.11302791122901454,
+      "kelly_frac": 0.03344460040701266,
+      "bet_amount": 66.71550633558182,
+      "outcome": "YES"
+    }
+  ],
+  "total_bet": 894.1610560961491
+}
