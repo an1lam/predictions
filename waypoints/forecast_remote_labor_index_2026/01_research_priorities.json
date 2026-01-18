@@ -1,0 +1,83 @@
+{
+  "phase": 1,
+  "completed_at": "2026-01-18",
+  "considerations": [
+    {
+      "factor": "Historical improvement rate on RLI",
+      "importance": 5,
+      "uncertainty": 4,
+      "priority": 20,
+      "notes": "Benchmark is relatively new, limited trajectory data available. Critical for extrapolation."
+    },
+    {
+      "factor": "Upcoming model releases (GPT-6, Claude 5, Gemini 4, etc.)",
+      "importance": 5,
+      "uncertainty": 4,
+      "priority": 20,
+      "notes": "New frontier models typically drive step-function improvements. Timing and capabilities uncertain."
+    },
+    {
+      "factor": "Error analysis from current attempts",
+      "importance": 4,
+      "uncertainty": 5,
+      "priority": 20,
+      "notes": "Understanding why 96% of tasks fail - are errors tractable or fundamental limitations?"
+    },
+    {
+      "factor": "Task composition and difficulty distribution",
+      "importance": 4,
+      "uncertainty": 4,
+      "priority": 16,
+      "notes": "Are there 'easy wins' left in the benchmark or uniformly difficult tasks?"
+    },
+    {
+      "factor": "Agent scaffolding improvements",
+      "importance": 4,
+      "uncertainty": 4,
+      "priority": 16,
+      "notes": "Tool use, planning, error recovery innovations can boost scores independently of base models."
+    },
+    {
+      "factor": "Comparison to other agentic benchmarks",
+      "importance": 4,
+      "uncertainty": 3,
+      "priority": 12,
+      "notes": "SWE-bench, GAIA, WebArena trajectories provide reference class for agent improvement rates."
+    },
+    {
+      "factor": "Labs' focus on agentic capabilities",
+      "importance": 4,
+      "uncertainty": 3,
+      "priority": 12,
+      "notes": "Product launches (ChatGPT agent, Claude computer use) suggest high priority. Affects resource allocation."
+    },
+    {
+      "factor": "Current best score baseline",
+      "importance": 5,
+      "uncertainty": 1,
+      "priority": 5,
+      "notes": "Known: 3.75% as of Jan 2026. Already established."
+    },
+    {
+      "factor": "Benchmark methodology changes",
+      "importance": 3,
+      "uncertainty": 2,
+      "priority": 6,
+      "notes": "Unlikely to change scoring dramatically mid-year."
+    }
+  ],
+  "research_priorities": [
+    "Historical improvement rate on RLI (score trajectory since launch)",
+    "Error analysis and tractability of remaining tasks",
+    "Upcoming model releases and expected cadence in 2026",
+    "Task composition and which domains are blocking progress",
+    "Agent scaffolding trends and recent innovations"
+  ],
+  "decision_relevant_quantities": [
+    "RLI top score at launch, 3 months ago, 6 months ago",
+    "Improvement trajectories on comparable benchmarks (SWE-bench, GAIA, WebArena)",
+    "Breakdown of RLI automation rate by task category/domain",
+    "Expected major model releases in 2026 based on historical lab cadence",
+    "Qualitative analysis of why current agents fail on RLI tasks"
+  ]
+}

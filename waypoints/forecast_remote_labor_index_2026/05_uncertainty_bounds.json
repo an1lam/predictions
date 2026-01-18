@@ -1,0 +1,140 @@
+{
+  "phase": 5,
+  "completed_at": "2026-01-18",
+
+  "uncertainty_layers": {
+    "statistical": {
+      "source": "FrontierMath trajectory extrapolation and agentic benchmark variance",
+      "bounds": [7, 40],
+      "notes": "No direct RLI historical data. FrontierMath showed 40x improvement; other agentic benchmarks showed 1.5-2x. Wide range reflects uncertainty about which reference class applies."
+    },
+    "model": {
+      "source": "Phase 4 scenario spread",
+      "bounds": [10, 52],
+      "notes": "Range from conservative scenario midpoint to very optimistic midpoint."
+    },
+    "tail_risk": {
+      "total_tail_probability": 0.12,
+      "scenarios": [
+        {
+          "direction": "downside",
+          "description": "Technical plateau: Error compounding in long-horizon tasks proves fundamentally unsolvable with current approaches",
+          "probability": 0.02,
+          "implied_outcome": "6-8%"
+        },
+        {
+          "direction": "downside",
+          "description": "Benchmark hardening: RLI adds harder tasks or raises quality bar, deflating measured scores",
+          "probability": 0.01,
+          "implied_outcome": "5-7%"
+        },
+        {
+          "direction": "downside",
+          "description": "Geopolitical risks impact chip supply chain: Export controls, Taiwan tensions, or trade disruptions constrain compute availability",
+          "probability": 0.02,
+          "implied_outcome": "5-10%"
+        },
+        {
+          "direction": "downside",
+          "description": "Regulatory slowdown: New regulations impact datacenter build-out, training runs, or agent deployment, slowing AI progress broadly",
+          "probability": 0.02,
+          "implied_outcome": "6-10%"
+        },
+        {
+          "direction": "upside",
+          "description": "Breakthrough agent architecture: New approach dramatically improves long-horizon execution (analogous to o1 for reasoning)",
+          "probability": 0.03,
+          "implied_outcome": "55-65%"
+        },
+        {
+          "direction": "upside",
+          "description": "Explicit targeting + AI-accelerated R&D compounding: Major lab prioritizes RLI while AI tools accelerate their development",
+          "probability": 0.02,
+          "implied_outcome": "55-70%"
+        },
+        {
+          "direction": "upside",
+          "description": "Continual learning progress: Agents gain ability to learn and improve from deployment experience rather than requiring new training runs. Would enable rapid skill accumulation on RLI-style tasks.",
+          "probability": 0.17,
+          "implied_outcome": "45-60%",
+          "note": "User assessment: 15-20% probability. This is substantial enough to be a distinct scenario rather than a tail risk. Partially overlaps with optimistic scenarios but represents a specific mechanism that could drive acceleration."
+        }
+      ],
+      "tail_bounds": [5, 65],
+      "revised_upside_note": "Continual learning at 15-20% probability is no longer a 'tail' but a significant scenario. Total upside probability (above moderate expectations) is now ~25-30% when including overlap with optimistic scenarios."
+    }
+  },
+
+  "distribution": {
+    "type": "mixture of truncated normal + tail mass",
+    "rationale": "RLI score is bounded [0, 100]. Using truncated normal for main probability mass with explicit tail probability for extreme scenarios.",
+    "parameters": {
+      "main_distribution": {
+        "type": "truncated_normal",
+        "mean": 25,
+        "std": 12,
+        "lower_bound": 0,
+        "upper_bound": 100
+      },
+      "downside_tail_mass": 0.05,
+      "upside_tail_mass": 0.05
+    },
+    "fitted_from": "Weighted scenario estimates from Phase 4 + tail risk analysis"
+  },
+
+  "final_prediction": {
+    "prediction_type": "quantitative",
+    "p5": 6,
+    "p10": 10,
+    "p25": 17,
+    "p50": 26,
+    "p75": 38,
+    "p90": 50,
+    "p95": 58,
+    "summary": {
+      "median": 26,
+      "80_percent_ci": [10, 50],
+      "90_percent_ci": [6, 58]
+    },
+    "revision_note": "Distribution revised to be more right-skewed after user input that continual learning has 15-20% probability (not 2%). This pushes p75/p90/p95 meaningfully higher."
+  },
+
+  "confidence_notes": [
+    "Wide uncertainty reflects genuinely novel prediction: RLI is a new benchmark measuring hard real-world tasks with no historical trajectory.",
+    "80% CI (10-50%) spans from 'RLI is fundamentally harder than FrontierMath' to 'continual learning or similar breakthrough accelerates progress'.",
+    "Median of 26% represents ~7x improvement from current 3.75%, which is between SWE-bench pace (2x) and FrontierMath pace (40x).",
+    "Downside tails: technical plateau, benchmark hardening, geopolitical/chip supply, regulatory slowdown.",
+    "Upside factors: breakthrough architectures, explicit targeting, AI-accelerated R&D, continual learning (15-20% per user assessment).",
+    "User's intuition of 40% now falls around p80, reflecting the right-skewed distribution from continual learning probability."
+  ],
+
+  "what_would_move_outside_bounds": {
+    "below_p10": [
+      "Agent capabilities plateau completely - no improvement from new models",
+      "RLI benchmark is substantially revised to be much harder",
+      "Labs deprioritize agents due to safety concerns or other strategic shifts",
+      "Geopolitical disruption to chip supply chain (export controls, Taiwan tensions)",
+      "Regulatory slowdown on datacenter build-out or AI training/deployment"
+    ],
+    "above_p90": [
+      "Major architecture breakthrough for long-horizon agent tasks",
+      "Multiple labs explicitly optimize for RLI as competitive benchmark",
+      "AI-accelerated R&D creates compounding effect faster than historical patterns",
+      "Continual learning progress enables agents to improve from deployment experience"
+    ]
+  },
+
+  "calibration_check": {
+    "bounds_wider_than_statistical_ci": true,
+    "tail_scenarios_considered": true,
+    "all_phase_3_scenarios_included": true,
+    "extreme_confidence_justified": "n/a - no predictions below 5% or above 95%",
+    "bet_test": "Would bet at 9:1 odds against outcome below 6% or above 55% - these would require significant surprises"
+  },
+
+  "comparison_to_reference_class": {
+    "frontiermath_equivalent_outcome": "40% (p90 level)",
+    "swe_bench_equivalent_outcome": "8% (below p10)",
+    "interpretation": "Prediction assumes RLI difficulty falls between these extremes, with central estimate closer to 'dampened FrontierMath' than 'SWE-bench pace'"
+  }
+}

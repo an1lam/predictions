@@ -1,0 +1,32 @@
+{
+  "name": "remote_labor_index_2026",
+  "prediction_type": "quantitative",
+  "target": "Highest AI agent automation rate (%) on Remote Labor Index by December 31, 2026",
+  "resolution_date": "2026-12-31",
+  "resolution_criteria": "Read the top automation rate score from scale.com/leaderboard/rli on or around December 31, 2026. The value is the highest percentage shown for any AI agent.",
+  "created_at": "2026-01-18",
+  "updated_at": "2026-01-18",
+  "completed_phases": [0, 1, 2, 3, 4, 5, 6],
+  "current_phase": null,
+  "status": "complete",
+  "user_initial_intuition": 40,
+  "user_intuition_unit": "percent",
+  "current_baseline": {
+    "date": "2026-01-16",
+    "top_score": 3.75,
+    "top_agent": "claude-opus-4-5-20251101-thinking",
+    "source": "https://scale.com/leaderboard/rli"
+  },
+  "key_evidence_to_watch": [
+    "New model releases (GPT-6, Claude 5) - do they show proportional RLI gains?",
+    "Continual learning progress - does this become a significant factor?",
+    "Domain-specific breakthroughs - does progress vary across the 23 domains?",
+    "Geopolitical/regulatory developments affecting AI progress"
+  ],
+  "final_prediction": {
+    "p10": 10,
+    "p50": 26,
+    "p90": 50,
+    "80_percent_ci": [10, 50]
+  }
+}

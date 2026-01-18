@@ -1,0 +1,116 @@
+{
+  "phase": 2,
+  "completed_at": "2026-01-18",
+  "prediction_type": "quantitative",
+
+  "historical_data": {
+    "source": "Scale AI RLI Leaderboard",
+    "file": "N/A (no historical RLI data available, benchmark is new)",
+    "current_value": 3.75,
+    "current_date": "2026-01-16",
+    "current_leader": "claude-opus-4-5-20251101-thinking"
+  },
+
+  "reference_class": {
+    "description": "AI benchmark improvement rates, with emphasis on FrontierMath as best analog (also started at very low scores)",
+    "primary_reference": {
+      "name": "FrontierMath",
+      "type": "hard math problems (research-level)",
+      "rationale": "Best analog for RLI because: (1) started at very low scores (~1%), (2) is genuinely hard, (3) shows sigmoid acceleration pattern from low starting point",
+      "trajectory": {
+        "2024-06-20": {"score": 1.0, "model": "Claude 3.5 Sonnet"},
+        "2024-12-17": {"score": 9.3, "model": "o1-high"},
+        "2025-04-16": {"score": 18.7, "model": "o3-high"},
+        "2025-08-07": {"score": 32.4, "model": "GPT-5-high"},
+        "2025-12-11": {"score": 40.3, "model": "GPT-5.2-high"}
+      },
+      "period_months": 17.7,
+      "start_score": 1.0,
+      "end_score": 40.3,
+      "improvement_factor": 40.3,
+      "key_insight": "40x improvement from 1% to 40% - shows rapid acceleration once reasoning models crossed capability threshold"
+    },
+    "secondary_references": [
+      {
+        "name": "SWE-bench Verified",
+        "type": "coding agent tasks",
+        "period_months": 15.3,
+        "start_score": 32.0,
+        "end_score": 64.8,
+        "improvement_factor": 2.02,
+        "note": "Started in middle of sigmoid - not directly comparable to RLI's low starting point"
+      },
+      {
+        "name": "OS World",
+        "type": "computer use tasks",
+        "period_months": 9.0,
+        "start_score": 35.8,
+        "end_score": 66.3,
+        "improvement_factor": 1.85,
+        "note": "Started in middle of sigmoid"
+      },
+      {
+        "name": "METR Time Horizons",
+        "type": "long-horizon agentic tasks",
+        "period_months": 17.1,
+        "start_value": 18.7,
+        "end_value": 289.0,
+        "improvement_factor": 15.45,
+        "note": "Different metric (time horizons, not pass rate)"
+      }
+    ]
+  },
+
+  "sigmoid_dynamics_analysis": {
+    "key_insight": "Position on sigmoid curve matters enormously for extrapolation",
+    "frontiermath_pattern": {
+      "description": "FrontierMath showed rapid acceleration from ~1% once reasoning models (o1, o3) crossed capability thresholds",
+      "phases": [
+        {"phase": "slow_start", "range": "0-5%", "period": "Jun 2024 - Dec 2024", "months": 6},
+        {"phase": "acceleration", "range": "5-20%", "period": "Dec 2024 - Apr 2025", "months": 4},
+        {"phase": "rapid_growth", "range": "20-40%", "period": "Apr 2025 - Dec 2025", "months": 8}
+      ]
+    },
+    "rli_position": "RLI at 3.75% is analogous to FrontierMath in late 2024 / early 2025 - potentially at the inflection point before acceleration",
+    "implication": "If RLI follows FrontierMath pattern, could see significant acceleration in 2026"
+  },
+
+  "extrapolation_analysis": {
+    "current_rli_score": 3.75,
+    "months_to_target": 11.5,
+    "target_date": "2026-12-31",
+    "scenarios": {
+      "conservative": {
+        "projected_score": 7.5,
+        "improvement_factor": 2.0,
+        "description": "SWE-bench pace (2x) - assumes RLI is harder and won't see FrontierMath-like acceleration"
+      },
+      "moderate": {
+        "projected_score": 18.8,
+        "improvement_factor": 5.0,
+        "description": "FrontierMath 2025 pace (~5x in 11 months) - assumes similar acceleration pattern"
+      },
+      "aggressive": {
+        "projected_score": 39.6,
+        "improvement_factor": 10.6,
+        "description": "FrontierMath full trajectory (40x over 18mo, time-adjusted to 11.5mo)"
+      }
+    }
+  },
+
+  "base_rate_anchor": {
+    "point_estimate": 18,
+    "range": [8, 40],
+    "rationale": "Revised upward from initial 10% after incorporating FrontierMath as primary reference class. FrontierMath shows that benchmarks starting at very low scores can experience rapid acceleration (40x in 18 months). Central estimate of 18% reflects moderate FrontierMath-like acceleration. Wide range (8-40%) reflects uncertainty about whether RLI will hit similar capability thresholds."
+  },
+
+  "rli_vs_frontiermath_differences": [
+    "RLI requires end-to-end execution of real professional work, not just reasoning/problem-solving",
+    "RLI tasks are multi-modal (code, design, video, etc.) vs pure math",
+    "RLI success requires satisfying human quality standards, not just correctness",
+    "RLI tasks are longer (100+ hours human time) and more complex",
+    "FrontierMath benefited directly from reasoning model advances (o1, o3) - unclear if RLI will see equivalent catalyst"
+  ],
+
+  "notes": "FrontierMath provides much better base rate than benchmarks that started at 30-50%. The 40x improvement from 1% to 40% suggests that starting at the 'foot' of the sigmoid doesn't necessarily mean slow progress - it can mean rapid acceleration once capabilities cross thresholds. User's intuition of 40% is now within the aggressive-but-plausible range."
+}

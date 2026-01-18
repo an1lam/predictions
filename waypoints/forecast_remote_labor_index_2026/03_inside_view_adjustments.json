@@ -1,0 +1,174 @@
+{
+  "phase": 3,
+  "completed_at": "2026-01-18",
+
+  "fermi_decomposition": {
+    "components": [
+      {
+        "factor": "Base model capability improvements",
+        "estimate": "1.5-3x improvement expected from new model generations (GPT-6, Claude 5, Gemini 4)",
+        "reasoning": "Historical pattern of ~1.5-2x capability jump per major model generation. At least 1-2 generations expected in 2026."
+      },
+      {
+        "factor": "Agent scaffolding improvements",
+        "estimate": "1.2-1.5x multiplier on top of base model gains",
+        "reasoning": "Rapid innovation in agentic frameworks (tool use, planning, error recovery). But unclear if solves long-horizon execution."
+      },
+      {
+        "factor": "Task completion efficiency",
+        "estimate": "0.7-0.9x multiplier (dampening factor)",
+        "reasoning": "RLI tasks are harder than FrontierMath: 100+ hours, multi-modal, must satisfy human quality judgment. Error compounding unsolved."
+      }
+    ],
+    "combination_method": "Multiplicative: Base capability × Scaffolding × Task efficiency, starting from 3.75%",
+    "decomposition_result": "3.75% × (1.5 to 3) × (1.2 to 1.5) × (0.7 to 0.9) = 4.7% to 12.2% (conservative bound) or 3.75% × 3 × 1.5 × 0.9 = 15.2% (moderate) or higher with favorable assumptions"
+  },
+
+  "scenarios": [
+    {
+      "name": "Conservative: RLI is fundamentally harder",
+      "key_assumption": "The gap between reasoning (FrontierMath) and end-to-end execution (RLI) is large and won't be bridged in 2026",
+      "supporting_evidence": [
+        "Current 3.75% shows agents fail 96% of RLI tasks",
+        "RLI tasks are 100+ hours, multi-modal, require satisfying human quality judgment",
+        "Error compounding over long tasks is an unsolved problem",
+        "FrontierMath gains were driven by reasoning models - RLI needs execution capabilities",
+        "Multi-domain nature (23 domains) prevents specialization gains"
+      ],
+      "disconfirming_evidence": [
+        "New model releases show proportional RLI gains (e.g., each model gen improves RLI ~2x)",
+        "Agent scaffolding breakthroughs dramatically reduce error rates on long tasks",
+        "Domain-specific fine-tuning or specialized agents crack individual RLI domains"
+      ],
+      "implied_outcome": "8-12%",
+      "outcome_reasoning": "2-3x improvement from baseline. Similar to SWE-bench's measured pace.",
+      "initial_weight": 0.30
+    },
+    {
+      "name": "Moderate: Dampened FrontierMath acceleration",
+      "key_assumption": "RLI sees similar sigmoid acceleration pattern but at ~50% the rate due to execution difficulty being harder than reasoning",
+      "supporting_evidence": [
+        "All agentic benchmarks improving; labs heavily investing in agents",
+        "METR time horizons showed 15x improvement (directly measures agent capability)",
+        "Economic incentives for workplace automation are enormous",
+        "Labs explicitly shipping agent products (Claude computer use, ChatGPT agent, Manus)",
+        "RLI at 3.75% is analogous to FrontierMath in late 2024 - similar inflection point"
+      ],
+      "disconfirming_evidence": [
+        "RLI scores plateau despite model improvements",
+        "Error compounding proves insurmountable for 100+ hour tasks",
+        "Multi-modal requirements create hard ceiling"
+      ],
+      "implied_outcome": "18-28%",
+      "outcome_reasoning": "5-7x improvement. Half of FrontierMath's 40x pace, accounting for harder task type.",
+      "initial_weight": 0.45
+    },
+    {
+      "name": "Optimistic: FrontierMath-like trajectory",
+      "key_assumption": "Agent scaffolding + reasoning advances cross a capability threshold for RLI tasks, similar to how o1/o3 unlocked FrontierMath",
+      "supporting_evidence": [
+        "FrontierMath: 40x improvement once reasoning models crossed threshold",
+        "Labs explicitly prioritizing agentic capabilities with massive investment",
+        "Strong economic incentives - RLI success would be economically transformative",
+        "Agentic architectures (Manus, Claude computer use) are rapidly improving",
+        "RLI current score (3.75%) may be just before inflection point"
+      ],
+      "disconfirming_evidence": [
+        "Reasoning model improvements don't translate to better RLI scores",
+        "RLI's multi-domain nature prevents the focused capability gains that drove FrontierMath",
+        "Human quality judgment creates harder bar than mathematical correctness",
+        "100+ hour tasks have qualitatively different failure modes than FrontierMath problems"
+      ],
+      "implied_outcome": "35-45%",
+      "outcome_reasoning": "9-12x improvement. Following FrontierMath trajectory adjusted for 11.5 month timeframe.",
+      "initial_weight": 0.20
+    },
+    {
+      "name": "Very Optimistic: Breakthrough + explicit targeting",
+      "key_assumption": "Major agent architecture breakthrough occurs AND at least one lab explicitly optimizes for RLI",
+      "supporting_evidence": [
+        "Rapid pace of agentic innovation could produce breakthrough",
+        "Economic value of RLI success is enormous (multi-trillion dollar TAM)",
+        "RLI is becoming a focal benchmark for agent evaluation"
+      ],
+      "disconfirming_evidence": [
+        "Labs prioritize other benchmarks/products over RLI specifically",
+        "Breakthrough would need to solve long-horizon execution which is hard",
+        "Most likely if labs don't see RLI as strategic priority"
+      ],
+      "implied_outcome": "45-60%",
+      "outcome_reasoning": "12-16x improvement. Requires favorable assumptions across multiple dimensions.",
+      "initial_weight": 0.05
+    }
+  ],
+
+  "adjustment_factors": [
+    {
+      "factor": "Task difficulty vs FrontierMath",
+      "direction": "-",
+      "magnitude": "moderate-to-large",
+      "confidence": "high",
+      "notes": "End-to-end execution fundamentally harder than reasoning. 100+ hour tasks compound errors. Multi-modal requirements. Human quality judgment harder to satisfy than mathematical correctness. This is the strongest negative factor."
+    },
+    {
+      "factor": "Labs' explicit agent focus",
+      "direction": "+",
+      "magnitude": "moderate",
+      "confidence": "high",
+      "notes": "All major labs shipping agent products in 2025-2026. Claude computer use, ChatGPT agent, Manus. Enormous economic incentives for workplace automation."
+    },
+    {
+      "factor": "AI-accelerated AI R&D",
+      "direction": "+",
+      "magnitude": "small-to-moderate",
+      "confidence": "medium",
+      "notes": "ADDED: Claude Code, Codex, Cursor etc. are accelerating AI development within labs. Creates compounding dynamic: better AI → faster R&D → better models. Could sustain current exponential or push into faster regime. Especially relevant for agent scaffolding iteration speed."
+    },
+    {
+      "factor": "Expected model releases in 2026",
+      "direction": "+",
+      "magnitude": "moderate",
+      "confidence": "medium-high",
+      "notes": "Expect at least 1-2 major model generations (GPT-6, Claude 5, Gemini 4). Each generation typically brings capability jumps. This is baked into base rate to some extent."
+    },
+    {
+      "factor": "Agent scaffolding improvements",
+      "direction": "+",
+      "magnitude": "small-to-moderate",
+      "confidence": "medium",
+      "notes": "Rapid innovation in tool use, planning, error recovery. Compounded by AI-accelerated R&D. But unclear if solves fundamental long-horizon execution challenge."
+    },
+    {
+      "factor": "Multi-domain breadth (23 domains)",
+      "direction": "-",
+      "magnitude": "small",
+      "confidence": "medium",
+      "notes": "RLI spans game dev, architecture, video animation, etc. Harder to make broad gains vs specialized benchmarks."
+    },
+    {
+      "factor": "Human quality standards",
+      "direction": "-",
+      "magnitude": "small",
+      "confidence": "high",
+      "notes": "RLI requires satisfying human professional judgment, not just correctness. Subjective quality bar is harder."
+    }
+  ],
+
+  "net_adjustment_summary": {
+    "base_rate_anchor": 18,
+    "qualitative_assessment": "Net positive adjustment, likely +3 to +8pp",
+    "reasoning": "The original net-zero was suspiciously convenient (likely unconscious anchoring). On reflection: (1) Task difficulty is the strongest negative but is partially accounted for in choosing FrontierMath as reference class, (2) AI-accelerated R&D is a genuine new positive factor not in the base rate, (3) Labs' agent focus and model releases are strong positives. Net direction is modestly positive.",
+    "honest_uncertainty": "These adjustments have wide error bars. Claiming precise pp values is false precision. The directional assessment is: positive factors slightly outweigh negatives, suggesting upward revision from base rate."
+  },
+
+  "adjusted_estimate": {
+    "point_estimate": 22,
+    "range": [10, 42],
+    "reasoning": "Revised upward from base rate of 18%. Inside view factors net positive: AI-accelerated R&D is a genuine new factor, labs' agent focus is strong, and task difficulty (while real) is partially accounted for in FrontierMath reference class choice. Weighted scenario average also suggests ~24%. Settling on 22% as point estimate with wide range reflecting genuine uncertainty."
+  },
+
+  "weighted_scenario_estimate": 24,
+  "weighted_scenario_calculation": "0.30×10 + 0.45×23 + 0.20×40 + 0.05×52 = 24%",
+
+  "revision_note": "Original analysis had suspiciously net-zero adjustments, which was likely unconscious anchoring. Added AI-accelerated R&D as missing positive factor. Revised to acknowledge net positive adjustment direction while avoiding false precision in magnitude estimates."
+}

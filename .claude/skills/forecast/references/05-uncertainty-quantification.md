@@ -66,27 +66,54 @@ extreme_high = <what could go surprisingly well>
 
 **Not domain-specific** — apply these categories to any prediction:
 
-### Downside Tail Examples
-- Market disruption or demand collapse
-- Regulatory or policy changes
-- Competitive dynamics shifting unfavorably
-- Technical plateau or diminishing returns
-- Measurement methodology changes (benchmark becomes easier/harder)
-- Resource constraints (funding, talent, compute)
-- Organizational dysfunction or priority shifts
-- External shocks (economic, geopolitical)
+### Endogenous Factors
 
-### Upside Tail Examples
+**Downside:**
+- Technical plateau or diminishing returns
+- Organizational dysfunction or priority shifts
+- Resource constraints (funding, talent, key inputs)
+- Competitive dynamics shifting unfavorably
+- Measurement methodology changes (unfavorable)
+
+**Upside:**
 - Breakthrough innovation or paradigm shift
 - Unexpected synergies or compound effects
 - Explicit prioritization by major players
-- Favorable regulatory or policy environment
-- Measurement methodology changes (favorable)
 - Resource windfalls
 - Competitive pressure driving acceleration
-- Serendipitous discoveries
+- Measurement methodology changes (favorable)
 
-For each prediction, identify 2-3 specific tail scenarios from these categories.
+### External/Macro Factors
+
+These affect almost any forecast but are often missed because they're outside the immediate prediction domain:
+
+**Geopolitical:**
+- Trade disruptions, sanctions, export controls
+- Regional conflicts affecting supply chains
+- International cooperation breakdown or formation
+- Immigration/talent flow restrictions
+
+**Regulatory:**
+- New laws or regulations (restrictive or permissive)
+- Enforcement changes for existing rules
+- Licensing or approval delays/acceleration
+- Liability or safety requirements
+
+**Economic:**
+- Recession or boom affecting investment/demand
+- Interest rate changes affecting capital availability
+- Currency fluctuations
+- Inflation/deflation affecting costs
+
+**Other external:**
+- Natural disasters, pandemics
+- Key infrastructure failures (power, internet, logistics)
+- Social/political shifts in public opinion
+- Adjacent industry disruptions with spillover effects
+
+### Checklist
+
+For each prediction, identify specific tail scenarios. Use the categories above as prompts, but don't limit yourself to the listed examples — other scenarios may be more relevant. **Explicitly check**: have you considered at least one external/macro factor? These are systematically under-weighted.
 
 ---
 
