@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:stephenmalina.com)",
+      "WebFetch(domain:an1lam.substack.com)",
+      "WebFetch(domain:www.datacamp.com)",
+      "WebFetch(domain:blog.google)",
+      "WebFetch(domain:epoch.ai)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:balrogai.com)",
+      "WebFetch(domain:metr.org)",
+      "Bash(uv run python:*)"
+    ]
+  }
+}
